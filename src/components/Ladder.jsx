@@ -28,7 +28,7 @@ const Ladder = () => {
 
               Are you ready to transform your dreams into reality? At L7, we believe that setting clear, actionable goals is the first step towards achieving more in life. Whether you’re aiming for personal growth, career advancement, or simply a more fulfilling life, we’re here to guide you every step of the way.
               </p>
-              <button>Login</button>
+          
             </div>
             
           </div>
