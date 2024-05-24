@@ -1,6 +1,8 @@
 import React from 'react';
 import "./style.css";
 import { FaRegUserCircle } from "react-icons/fa";
+import { GoGoal } from "react-icons/go";
+
 
 
 const Ladder = () => {
@@ -8,7 +10,7 @@ const Ladder = () => {
     <div>
       <header>
         <div className="container">
-          <a href="#" style={{fontSize:'20px'}}>L7</a>
+          <a href="#" style={{fontSize:'25px'}}><GoGoal/> Learntos</a>
           <nav>
             <a href="#">Home</a>
             <a href="#">About</a>
@@ -23,19 +25,19 @@ const Ladder = () => {
         <section className="banner-container">
           <div className="container">
             <div className="left-section">
-              <h1 className="animated-heading">Welcome to L7</h1>
+              <h1 className="animated-heading"> L 7</h1>
               <p>
 
               Are you ready to transform your dreams into reality? At L7, we believe that setting clear, actionable goals is the first step towards achieving more in life. Whether you’re aiming for personal growth, career advancement, or simply a more fulfilling life, we’re here to guide you every step of the way.
               </p>
-          
+          <button className='goal'>SET A GOAL</button>
             </div>
             
           </div>
         </section>
   
         <footer>
-          Design and Developed by <span>Aswin </span>
+          Design and Developed by <span> TEAM L7 </span>
         </footer>
         <div id="root"></div>
       </main>
